@@ -6,6 +6,9 @@ on:
         description: The name of artifacts
         required: true
         type: string
+    secrets:
+      some-secret:
+        required: true
 jobs:
   deploy:
     runs-on: ubuntu-latest
